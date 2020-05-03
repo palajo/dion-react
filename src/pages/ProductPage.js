@@ -168,7 +168,7 @@ function ProductPage() {
                                     Обратный звонок
                                 </button>
                             </Col>
-                            <Col className="text-centers align-self-center">
+                            <Col className="text-center align-self-center">
                                 <h2 className="margin-bottom-10">Нужна помощь в выборе?</h2>
                                 <h2>+38 (063) 03 16 797</h2>
                             </Col>
