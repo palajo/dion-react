@@ -5,6 +5,7 @@ import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 
 import Waterheater from '../images/waterheater.png';
+import Partner from '../components/popup/Partner';
 
 function BusinessPage() {
     return (
@@ -25,9 +26,7 @@ function BusinessPage() {
                                         нами это выгодно, ведь мы лояльны к своим партнерам. <br/>
                                         Мы рады сотрудничеству!
                                     </p>
-                                    <button className="button" data-toggle="modal" data-target="#cowork">
-                                        Начать сотрудничать!
-                                    </button>
+                                    <Partner />
                                 </Col>
                             </Row>
                         </Col>

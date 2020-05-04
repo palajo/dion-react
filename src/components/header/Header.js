@@ -40,7 +40,7 @@ function Header() {
                             </div>
                         </Row>
                     </Col>
-                    <Col xs={6} lg={6} className="align-self-center">
+                    <Col xs={6} lg={6} className="align-self-center dark">
                         <Navigation/>
                     </Col>
                 </Row>

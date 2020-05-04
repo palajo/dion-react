@@ -5,6 +5,8 @@ import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 
 import Waterheater from "../images/waterheater.png";
+import Callback from "../components/popup/Callback";
+import Order from "../components/popup/Order";
 
 function ProductPage() {
     return (
@@ -50,9 +52,7 @@ function ProductPage() {
                                             <Row>
                                                 <Col lg={12}>
                                                     <Row>
-                                                        <button className="button" data-toggle="modal"
-                                                                data-target="#purchase">Оформить заказ
-                                                        </button>
+                                                        <Order />
                                                         <div className="span margin-left-40">
                                                             <p>
                                                                 Стоимость:
@@ -164,9 +164,7 @@ function ProductPage() {
                                         безопаности он оснащен?
                                     </li>
                                 </ul>
-                                <button className="button" data-toggle="modal" data-target="#callback">
-                                    Обратный звонок
-                                </button>
+                                <Callback />
                             </Col>
                             <Col className="text-center align-self-center">
                                 <h2 className="margin-bottom-10">Нужна помощь в выборе?</h2>

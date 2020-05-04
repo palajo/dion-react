@@ -17,15 +17,15 @@ const Navigation = (props: any) => {
     return(
         <>
             <div onClick={toggleNav}>
-                <Row className="align-self-center justify-content-end burgermenu-icon-block dark"
+                <Row className="align-self-center justify-content-end burgermenu-icon-block"
                      id={state.isPressedShowNav ? 'active': null}>
                     <div className="span burgermenu-text z-index-1001">
                         Меню
                     </div>
                     <div className="burgermenu-icon z-index-1001">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
                     </div>
                 </Row>
             </div>

@@ -386,7 +386,6 @@ footer{
 .burgermenu-icon-block{
   cursor: pointer;
   line-height: 36px;
-
   z-index: 10;
 
   .burgermenu-text{
@@ -396,8 +395,7 @@ footer{
 
   .burgermenu-icon{
     width: 36px;
-    align-self: center;
-
+    padding: 9px 0px;
     span{
       float: right;
       background: white;
@@ -416,23 +414,15 @@ footer{
       width: 24px;
     }
   }
-}
-.burgermenu-icon-block.dark{
-
-  .burgermenu-text{
-    color: #1f1f1f;
-  }
-
-  .burgermenu-icon span{
-    background: #1f1f1f;
-  }
 
   &:hover .burgermenu-text{
-    color: #176de5;
+    color: #f0f0f0;
   }
+
   &:hover .burgermenu-icon span{
-    background: #176DE5;
+    background: #f0f0f0;
   }
+
 }
 #active.burgermenu-icon-block{
 
@@ -440,6 +430,9 @@ footer{
     color: #1f1f1f;
   }
 
+  .burgermenu-icon{
+    align-self: center;
+  }
   .burgermenu-icon span{
     background: #1f1f1f;
   }
@@ -471,7 +464,26 @@ footer{
   }
 
 }
+.dark{
+  .burgermenu-icon-block{
 
+    .burgermenu-text{
+      color: #1f1f1f;
+    }
+
+    .burgermenu-icon span{
+      background: #1f1f1f;
+    }
+
+    &:hover .burgermenu-text{
+      color: #176de5;
+    }
+    &:hover .burgermenu-icon span{
+      background: #176DE5;
+    }
+
+  }
+}
 /* ------------------------ */
 
 /* ------- .burgermenu */
@@ -955,6 +967,7 @@ select.buy-select{
   border: 0;
   outline: none;
 
+  background: #fff;
   box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.35);
   font-size: 14px;
 

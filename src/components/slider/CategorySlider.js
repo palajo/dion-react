@@ -3,6 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
+import Callback from "../popup/Callback";
 
 class CategorySlider extends React.Component {
 
@@ -44,9 +45,7 @@ class CategorySlider extends React.Component {
                                             угодить клиенту во всем! Также мы предлагаем широкий
                                             ассортимент, чтобы вы выбрали именно нас!
                                         </p>
-                                        <button className="button" data-toggle="modal" data-target="#callback">
-                                            Обратный звонок
-                                        </button>
+                                        <Callback />
                                     </Col>
                                 </Row>
                             </Col>
@@ -66,9 +65,7 @@ class CategorySlider extends React.Component {
                                             угодить клиенту во всем! Также мы предлагаем широкий
                                             ассортимент, чтобы вы выбрали именно нас!
                                         </p>
-                                        <button className="button" data-toggle="modal" data-target="#callback">
-                                            Обратный звонок
-                                        </button>
+                                        <Callback />
                                     </Col>
                                 </Row>
                             </Col>

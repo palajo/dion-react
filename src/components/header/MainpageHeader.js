@@ -43,50 +43,6 @@ function MainpageHeader() {
                         <Col xl={6} className="align-self-center d-none d-lg-block">
                             <Navigation/>
                         </Col>
-                        <Col xl={6} className="align-self-center d-lg-none">
-                            <div
-                                data-toggle="collapse"
-                                data-target="#navbarSupportedContent1"
-                                aria-controls="navbarSupportedContent1"
-                                aria-expanded="false"
-                                aria-label="Toggle navigation"
-                            >
-                                <Row className="align-self-center justify-content-end burgermenu-icon-block dark"
-                                     id="burgermenu-icon">
-                                    <div className="span burgermenu-text z-index-1001">
-                                        Меню
-                                    </div>
-                                    <div className="burgermenu-icon z-index-1001">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                    </div>
-                                </Row>
-                            </div>
-                        </Col>
-                    </Row>
-                    <Row className="background-blue mobile-nav-block d-lg-none">
-                        <div className="collapse navbar-collapse" id="navbarSupportedContent1">
-                            <div>
-                                <ul className="nav flex-column mobile-nav">
-                                    <li className="nav-item">
-                                        <a className="nav-link">Главная</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link">Каталог</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link">Для клиента</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link">Для бизнеса</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link">Контакты</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
                     </Row>
                     <Row className="header-text">
                         <div className="col-xs-12 col-lg-7 ml-auto align-self-center">

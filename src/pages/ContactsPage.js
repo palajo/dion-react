@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
+import Callback from "../components/popup/Callback";
 
 function ContactsPage() {
     return (
@@ -23,9 +24,7 @@ function ContactsPage() {
                                         звоните! По любому интерисующему вопросу связанному с
                                         нами – звоните, мы рады помочь!
                                     </p>
-                                    <button className="button" data-toggle="modal" data-target="#callback">
-                                        Обратный звонок
-                                    </button>
+                                    <Callback />
                                 </Col>
                             </Row>
                         </Col>
