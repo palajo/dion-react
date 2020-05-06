@@ -228,8 +228,6 @@ button{
   url(../images/background-header-right.jpg) right;
 }
 .header-navigation{
-  padding: 30px 0px;
-
   .nav-link{
     padding: 0px 15px;
     color: #666;
@@ -248,6 +246,7 @@ button{
 }
 .logo{
   height: 40px;
+  margin: 30px 0px;
 }
 /* ------------------------ */
 
@@ -328,6 +327,7 @@ button{
 /* ------- price */
 h3.amount{
   line-height: 36px;
+  font-size: 30px;
 }
 low{
   font-size: 18px;
@@ -755,8 +755,42 @@ textarea.my-form-input-message:focus{
   background: linear-gradient(
                   to left, #f8f8f8 0%, #f8f8f8 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 100%) left,
   url(../images/background-header-right.jpg) left;
+
+  padding: 100px 0px;
+
+  .product-image{
+    .product-background{
+      border-right: 1px solid #dbdbdb;
+      border-bottom: 1px solid #dbdbdb;
+    }
+
+    margin-bottom: 70px;
+  }
+
+  .product-about{
+    .product-vendor{
+      font-size: 24px;
+      line-height: 24px;
+
+      font-weight: 500;
+    }
+    .product-category{
+      font-size: 36px;
+      line-height: 36px;
+
+      font-weight: 600;
+    }
+  }
+  .product-variations{
+    margin-top: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
+.faq{
+  border-right: 1px solid #dbdbdb;
+}
 /* ---------------- */
 
 
@@ -1072,4 +1106,9 @@ input.number{
   padding-bottom: 70px;
   padding-left: 100px;
   padding-right: 100px;
+}
+
+.map{
+  height: 800px;
+  width: 100%;
 }

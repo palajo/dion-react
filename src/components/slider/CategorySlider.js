@@ -35,7 +35,7 @@ class CategorySlider extends React.Component {
                         <Row className="category-slider margin-none">
                             <Col xs={12} lg={6} className="background-white-95">
                                 <Row className="justify-content-center h-100">
-                                    <Col xs={12} lg={8} className="align-self-center">
+                                    <Col xs={12} lg={8} className="align-self-center slider-content">
                                         <h1>
                                             Dion – продукция высокого
                                             качества.
@@ -55,7 +55,7 @@ class CategorySlider extends React.Component {
                         <Row className="category-slider margin-none">
                             <Col xs={12} lg={6} className="background-white-95">
                                 <Row className="justify-content-center h-100">
-                                    <Col xs={12} lg={8} className="align-self-center">
+                                    <Col xs={12} lg={8} className="align-self-center slider-content">
                                         <h1>
                                             Dion – продукция высокого
                                             качества.

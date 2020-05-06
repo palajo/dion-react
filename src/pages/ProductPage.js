@@ -13,19 +13,19 @@ function ProductPage() {
         <>
             <Header/>
             <body>
-            <Container fluid className="productpage padding-top-100 padding-bottom-100" id="about-product">
-                <Container >
-                    <Row className="justify-content-between">
-                        <Col lg={4} className="align-self-center padding-right-50">
-                            <Row className=" justify-content-center border-right border-bottom product-background">
+            <Container fluid className="productpage" id="about-product">
+                <Container>
+                    <Row className="justify-content-lg-between justify-content-around">
+                        <Col lg={4} md={12} xs={12} className="align-self-center product-image">
+                            <Row className="justify-content-center product-background">
                                 <img src={Waterheater} width="60%" className="drop-shadow"/>
                             </Row>
                         </Col>
-                        <Col lg={8} className="align-self-center">
+                        <Col lg={8} md={12} xs={12} className="align-self-center">
                             <Row>
-                                <Col lg={8}>
+                                <Col lg={8} md={12} xs={12} className="product-about">
                                     <Row className="justify-content-center">
-                                        <Col lg={9}>
+                                        <Col lg={9} xs={12}>
                                             <Row>
                                                 <div className="product-type">ДЫМОХОДНАЯ</div>
                                                 <div className="hr-100 margin-left-20 align-self-center"></div>
@@ -69,7 +69,7 @@ function ProductPage() {
                                         </Col>
                                     </Row>
                                 </Col>
-                                <Col lg={4} className="border-left">
+                                <Col lg={4} md={12} xs={12} className="product-variations">
                                     <Row className="justify-content-end">
                                         <Col lg={10}>
                                             <Row className="margin-bottom-15">
@@ -142,37 +142,35 @@ function ProductPage() {
                     </Col>
                 </Row>
             </Container>
-            <Container fluid className="padding-top-150 padding-bottom-150 background-gray" id="faq">
-                <Row >
-                    <Container>
-                        <Row>
-                            <Col className="border-right">
-                                <h2>
-                                    Часто задаваемые вопросы:
-                                </h2>
-                                <ul className="max-width-400 margin-top-50 margin-bottom-50 margin-left-20 faq-list">
-                                    <li data-toggle="modal" data-target="#question1">
-                                        Сколько времени займет доставка? Когда я смогу
-                                        установить водонагреватель?
-                                    </li>
-                                    <li data-toggle="modal" data-target="#question2">
-                                        Какая разница между дымоходной и парапетной
-                                        газовыми колонками?
-                                    </li>
-                                    <li data-toggle="modal" data-target="#question3">
-                                        Безопасен ли наш продукт? Какими системами
-                                        безопаности он оснащен?
-                                    </li>
-                                </ul>
-                                <Callback />
-                            </Col>
-                            <Col className="text-center align-self-center">
-                                <h2 className="margin-bottom-10">Нужна помощь в выборе?</h2>
-                                <h2>+38 (063) 03 16 797</h2>
-                            </Col>
-                        </Row>
-                    </Container>
-                </Row>
+            <Container fluid className="padding-top-150 padding-bottom-150 background-gray">
+                <Container>
+                    <Row>
+                        <Col className="faq">
+                            <h2>
+                                Часто задаваемые вопросы:
+                            </h2>
+                            <ul className="max-width-400 margin-top-50 margin-bottom-50 margin-left-20 faq-list">
+                                <li data-toggle="modal" data-target="#question1">
+                                    Сколько времени займет доставка? Когда я смогу
+                                    установить водонагреватель?
+                                </li>
+                                <li data-toggle="modal" data-target="#question2">
+                                    Какая разница между дымоходной и парапетной
+                                    газовыми колонками?
+                                </li>
+                                <li data-toggle="modal" data-target="#question3">
+                                    Безопасен ли наш продукт? Какими системами
+                                    безопаности он оснащен?
+                                </li>
+                            </ul>
+                            <Callback />
+                        </Col>
+                        <Col className="text-left text-lg-center align-self-center">
+                            <h2 className="margin-bottom-10">Нужна помощь в выборе?</h2>
+                            <h2>+38 (063) 03 16 797</h2>
+                        </Col>
+                    </Row>
+                </Container>
             </Container>
             </body>
             <Footer/>

@@ -46,11 +46,11 @@ const Callback = (props: any) => {
                     </Row>
                     <form action="index.html" method="post">
                         <Row className="row justify-content-center margin-bottom-20">
-                            <Col>
+                            <Col lg={true} xs={12} md={12}>
                                 <label>Имя:</label>
                                 <input type="email" className="buy-form" id="inputEmail4" placeholder="Иван.." />
                             </Col>
-                            <Col className="margin-left-30">
+                            <Col lg={true} xs={12} md={12} className="margin-left-30">
                                 <label>Контактный телефон:</label>
                                 <input type="password" className="buy-form" id="inputPassword4"
                                        placeholder="+38 (000) 00 00 000.." />

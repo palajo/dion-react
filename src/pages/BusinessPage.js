@@ -18,12 +18,12 @@ function BusinessPage() {
                             <Row className="justify-content-center h-100">
                                 <Col xs={12} lg={8} className="align-self-center">
                                     <h1>
-                                        Оптовая торговля с Dion <br/>
+                                        Оптовая торговля с Dion
                                         это просто!
                                     </h1>
                                     <p className="max-width-400 margin-top-30 margin-bottom-30">
                                         Заполните анкету и мы сразу же ее рассмотрим. Работать с
-                                        нами это выгодно, ведь мы лояльны к своим партнерам. <br/>
+                                        нами это выгодно, ведь мы лояльны к своим партнерам.
                                         Мы рады сотрудничеству!
                                     </p>
                                     <Partner />
@@ -92,8 +92,8 @@ function BusinessPage() {
                         </Col>
                     </Row>
                 </Container>
-                <div className="container-fluid background-gray">
-                    <Row>
+                <Container fluid className="background-gray">
+                    <Row className="margin-none">
                         <Col xs={12} md={12} lg={6}
                              className="d-flex justify-content-center padding-top-100 padding-bottom-100 product-slider-background">
                             <div className="d-flex justify-content-center background-white example-image">
@@ -126,7 +126,7 @@ function BusinessPage() {
                             </Row>
                         </Col>
                     </Row>
-                </div>
+                </Container>
                 <Container className="padding-top-150 padding-bottom-150 container-1200" id="benefits">
                     <Row className="justify-content-center">
                         <h3 className="text-center">14 лет опыта торговли. Уверенно!</h3>

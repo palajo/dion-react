@@ -38,7 +38,7 @@ const MobileNavigation = (props: any) => {
                     </Row>
                 </div>
             </Col>
-            <Col lg={12} className="margin-top-30">
+            <Col lg={12}>
                 <Collapse in={open} className="remove-margins">
                     <div id="example-collapse-text">
                         <Nav className="mobile-navigation flex-column">
