@@ -121,9 +121,7 @@ function BusinessPage() {
                                             положение дел, чтобы оказать помощь.
                                         </li>
                                     </ul>
-                                    <button className="button" data-toggle="modal" data-target="#cowork">
-                                        Начать сотрудничать
-                                    </button>
+                                    <Partner />
                                 </Col>
                             </Row>
                         </Col>
