@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Modal, Button, Col} from 'react-bootstrap';
+import {Modal, Container, Row, Col} from 'react-bootstrap';
 
 const Callback = (props: any) => {
 
@@ -21,8 +21,8 @@ const Callback = (props: any) => {
                 show={show} onHide={handleClose}
                 dialogClassName="max-width-900"
             >
-                <div
-                    className="container h-100 padding-top-40 padding-bottom-70 padding-left-100 padding-right-100 background-gray">
+                <Container
+                    className="h-100 popup background-gray">
                     <div className="row justify-content-end padding-bottom-10 margin-bottom-50 border-bottom">
                         <a className="align-self-center" onClick={handleClose}>
                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
@@ -41,33 +41,33 @@ const Callback = (props: any) => {
 						    </svg>
                         </a>
                     </div>
-                    <div className="row justify-content-center">
+                    <Row className="justify-content-center">
                         <h3 className="modal-title margin-bottom-20">Обратный звонок:</h3>
-                    </div>
+                    </Row>
                     <form action="index.html" method="post">
-                        <div className="row justify-content-center margin-bottom-20">
-                            <div className="col">
+                        <Row className="row justify-content-center margin-bottom-20">
+                            <Col>
                                 <label>Имя:</label>
                                 <input type="email" className="buy-form" id="inputEmail4" placeholder="Иван.." />
-                            </div>
-                            <div className="col margin-left-30">
+                            </Col>
+                            <Col className="margin-left-30">
                                 <label>Контактный телефон:</label>
                                 <input type="password" className="buy-form" id="inputPassword4"
                                        placeholder="+38 (000) 00 00 000.." />
-                            </div>
-                        </div>
-                        <div className="row margin-bottom-40">
-                            <div className="col-12">
+                            </Col>
+                        </Row>
+                        <Row className="row margin-bottom-40">
+                            <Col>
                                 <label>Ваш вопрос:</label>
                                 <textarea className="form-control my-form-input-message"
                                           placeholder="Опишите ваш вопрос вкратце.." rows="4" />
-                            </div>
-                        </div>
-                        <div className="row justify-content-center">
+                            </Col>
+                        </Row>
+                        <Row className="justify-content-center">
                             <button className="button" name="button">Отправить</button>
-                        </div>
+                        </Row>
                     </form>
-                </div>
+                </Container>
             </Modal>
         </>
     );

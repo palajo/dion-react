@@ -1045,19 +1045,31 @@ input.number{
 
 /* company stats */
 /* ---- */
-.mobile-nav-block{
+.remove-margins{
   margin-left: -40px;
   margin-right: -40px;
 }
-ul.mobile-nav > li.nav-item{
-  padding: 10px 20px;
-  background: #176de5;
+.mobile-navigation > .nav-item > .nav-link.active{
+  background: #3485ff;
 }
-ul.mobile-nav > li.nav-item:hover{
+
+.mobile-navigation > .nav-item > a.nav-link{
+  padding: 20px 30px;
+  background: #176de5;
+
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+.mobile-navigation > .nav-item > a.nav-link:hover{
   background: #3485ff;
   transition: 0.2s ease;
 }
-ul.mobile-nav > li.nav-item > a.nav-link{
-  color: white;
-  font-size: 14px;
+
+
+.popup{
+  padding-top: 40px;
+  padding-bottom: 70px;
+  padding-left: 100px;
+  padding-right: 100px;
 }

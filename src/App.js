@@ -7,6 +7,8 @@ import './styles/margins.scss';
 import './styles/fonts.scss';
 import './styles/icons.scss';
 
+import './styles/adaptation/mobile.scss';
+
 
 import MainPage from "./pages/MainPage";
 import CatalogPage from "./pages/CatalogPage";

@@ -1,11 +1,15 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 import {NavLink} from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
+
+
 import Logo from '../../images/logo.svg';
 import Waterheater from '../../images/waterheater.png';
 
 import Navigation from "../navigation/Navigation";
-import { HashLink as Link } from 'react-router-hash-link';
+import MobileNavigation from "../navigation/MobileNavigation";
+
 
 
 function MainpageHeader() {
@@ -14,7 +18,7 @@ function MainpageHeader() {
             <Container fluid>
                 <Container>
                     <Row className="header-navigation">
-                        <Col xl={6}>
+                        <Col>
                             <Row>
                                 <NavLink to="/">
                                     <img src={Logo} className="logo"/>
@@ -40,9 +44,10 @@ function MainpageHeader() {
                                 </div>
                             </Row>
                         </Col>
-                        <Col xl={6} className="align-self-center d-none d-lg-block">
+                        <Col className="align-self-center d-none d-lg-block">
                             <Navigation/>
                         </Col>
+                        <MobileNavigation/>
                     </Row>
                     <Row className="header-text">
                         <div className="col-xs-12 col-lg-7 ml-auto align-self-center">
