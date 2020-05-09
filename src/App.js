@@ -16,20 +16,25 @@ import BusinessPage from './pages/BusinessPage';
 import ClientsPage from "./pages/ClientsPage";
 import ContactsPage from "./pages/ContactsPage";
 import ProductPage from './pages/ProductPage';
+import AutoScrolTop from "./components/navigation/AutoScrolTop";
 
 function App() {
     return (
       <BrowserRouter>
-        <Switch>
-            <Route component={MainPage} path="/" exact />
-            <Route component={CatalogPage} path="/catalog" />
-            <Route component={BusinessPage} path="/business" />
-            <Route component={ClientsPage} path="/clients" />
-            <Route component={ContactsPage} path="/contacts" />
-            <Route component={ProductPage} path="/product" />
-        </Switch>
+          <AutoScrolTop>
+            <Switch>
+                <Route component={MainPage} path="/" exact />
+                <Route component={CatalogPage} path="/catalog" />
+                <Route component={BusinessPage} path="/business" />
+                <Route component={ClientsPage} path="/clients" />
+                <Route component={ContactsPage} path="/contacts" />
+                <Route component={ProductPage} path="/product" />
+            </Switch>
+          </AutoScrolTop>
       </BrowserRouter>
   );
 }
+
+
 
 export default App;

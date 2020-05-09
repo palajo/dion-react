@@ -29,8 +29,8 @@ const Order = (props: any) => {
                     className="h-100 popup background-gray">
                     <Row className="justify-content-between padding-bottom-10 border-bottom">
                         <h4 className="modal-title color-cdcbcb">Оформление заказа:</h4>
-                        <a className="align-self-center" data-dismiss="modal" aria-label="Close">
-                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        <a className="align-self-center" onClick={handleClose}>
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                  x="0px" y="0px"
                                  viewBox="0 0 492 492" width="18px" height="18px" fill="#cdcbcb"
                                  className="close">
@@ -119,7 +119,7 @@ const Order = (props: any) => {
                                     className="padding-top-40 padding-bottom-40 padding-left-70 padding-right-70 border-bottom">
                                     <Row className="justify-content-between">
                                         <img src={Waterheater} height="96px"/>
-                                        <div className="align-self-center variation">
+                                        <div className="align-self-center cart">
                                             <div className="product-vendor">DION JSD-10,</div>
                                             <div className="product-category">Премиум (Синяя)</div>
                                         </div>

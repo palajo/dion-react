@@ -7,12 +7,12 @@ import Waterheater from "../../images/waterheater.png";
 const Photopanel = (props: any) => {
 
     const [state, setState] = useState({
-        isPressedShowAll: false
+        isPressedShowAll: false,
     });
 
     const toggleWindows = () => {
         setState({
-            isPressedShowAll: !state.isPressedShowAll
+            isPressedShowAll: !state.isPressedShowAll,
         });
     };
     return(
@@ -35,7 +35,7 @@ const Photopanel = (props: any) => {
                     <Col xs={12} md={3} lg={true}>
                         <Row className="justify-content-start justify-content-md-end text-right more">
                             <button onClick={toggleWindows}>
-                                <b>Показать все</b>
+                                <b>{state.isPressedShowAll ? 'Скрыть' : 'Показать все'}</b>
                             </button>
                             <div className="span margin-left-10">
                                 <svg width="7" height="12" viewBox="0 0 7 12" fill="none"

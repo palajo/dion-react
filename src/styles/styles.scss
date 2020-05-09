@@ -782,7 +782,6 @@ textarea.my-form-input-message:focus{
     }
   }
   .product-variations{
-    margin-top: 70px;
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -797,6 +796,11 @@ textarea.my-form-input-message:focus{
 /* ------- product page - variation */
 .variation{
   cursor: pointer;
+
+  padding: 10px 20px;
+  margin-bottom: 15px;
+
+  border-bottom: 1px solid #dbdbdb;
 }
 .variation .product-vendor{
   font-size: 14px;
@@ -806,6 +810,21 @@ textarea.my-form-input-message:focus{
   color: #1f1f1f;
 }
 .variation .product-category{
+  font-size: 18px;
+  line-height: 18px;
+
+  font-family: 'FuturaDemiC';
+  color: #1f1f1f;
+}
+
+.cart .product-vendor{
+  font-size: 14px;
+  line-height: 14px;
+
+  font-family: 'FuturaBookC';
+  color: #1f1f1f;
+}
+.cart .product-category{
   font-size: 18px;
   line-height: 18px;
 

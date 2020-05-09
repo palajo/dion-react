@@ -71,12 +71,12 @@ function ProductPage() {
                                 </Col>
                                 <Col lg={4} md={12} xs={12} className="product-variations">
                                     <Row className="justify-content-end">
-                                        <Col lg={10}>
+                                        <Col lg={12}>
                                             <Row className="margin-bottom-15">
                                                 <p className="dark"><b>Доступные вариации:</b></p>
                                             </Row>
                                             <Row
-                                                className="padding-top-10 padding-bottom-10 padding-left-20 padding-right-20 margin-bottom-15 background-white border-bottom variation active">
+                                                className="background-white variation active">
                                                 <img src={Waterheater} height="64px"/>
                                                 <div className="align-self-center margin-left-30">
                                                     <div className="product-vendor">DION JSD-10,</div>
@@ -84,7 +84,7 @@ function ProductPage() {
                                                 </div>
                                             </Row>
                                             <Row
-                                                className="padding-top-10 padding-bottom-10 padding-left-20 padding-right-20 margin-bottom-15 background-white border-bottom variation">
+                                                className="background-white variation">
                                                 <img src={Waterheater} height="64px"/>
                                                 <div className="align-self-center margin-left-30">
                                                     <div className="product-vendor">DION JSD-10,</div>
