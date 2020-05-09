@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, Tab, Container, Col, Row } from 'react-bootstrap';
+import { Nav, Tab, Col, Row } from 'react-bootstrap';
 import {Link} from "react-router-dom";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
@@ -36,7 +36,7 @@ function ClientsPage() {
                             <Tab.Pane eventKey="first">
                                 <h3 className="margin-bottom-30">Гарантия:</h3>
                                 <div className="margin-bottom-50">
-                                    <img src={GuaranteeImage} width="100%"/>
+                                    <img src={GuaranteeImage} width="100%" alt="dion-guarantee"/>
                                 </div>
                                 <p>
                                     <b className="dark">Официальная гарантия</b><br/><br/>
@@ -59,7 +59,7 @@ function ClientsPage() {
                                     <Col lg={4} className="company-icon-graphic">
                                         <Row>
                                             <Col lg={12} className="margin-bottom-20">
-                                                <img src={NovaPoshta} height="30px"/>
+                                                <img src={NovaPoshta} height="30px" alt="Nova Poshta"/>
                                             </Col>
                                             <Col lg={12}>
                                                 <h4>Nova Poshta</h4>
@@ -75,7 +75,7 @@ function ClientsPage() {
                                     <Col lg={4} className="company-icon-graphic">
                                         <Row>
                                             <Col lg={12} className="margin-bottom-20">
-                                                <img src={MeestExpress} height="30px"/>
+                                                <img src={MeestExpress} height="30px" alt="Meest Express"/>
                                             </Col>
                                             <Col lg={12}>
                                                 <h4>Meest Express</h4>
@@ -91,7 +91,7 @@ function ClientsPage() {
                                     <Col lg={4} className="company-icon-graphic">
                                         <Row>
                                             <Col lg={12} className="margin-bottom-20">
-                                                <img src={Automobile} height="30px"/>
+                                                <img src={Automobile} height="30px" alt="Takeaway"/>
                                             </Col>
                                             <Col lg={12}>
                                                 <h4>Самовывоз</h4>
@@ -201,7 +201,9 @@ function ClientsPage() {
                                                     frameBorder="0"
                                                     allowFullScreen=""
                                                     aria-hidden="false"
-                                                    tabIndex="0">
+                                                    tabIndex="0"
+                                                    title="office"
+                                                >
                                                 </iframe>
                                             </Row>
                                         </Col>

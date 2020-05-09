@@ -29,7 +29,7 @@ const Order = (props: any) => {
                     className="h-100 popup background-gray">
                     <Row className="justify-content-between padding-bottom-10 border-bottom">
                         <h4 className="modal-title color-cdcbcb">Оформление заказа:</h4>
-                        <a className="align-self-center" onClick={handleClose}>
+                        <button className="align-self-center" onClick={handleClose}>
                             <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                  x="0px" y="0px"
                                  viewBox="0 0 492 492" width="18px" height="18px" fill="#cdcbcb"
@@ -44,7 +44,7 @@ const Order = (props: any) => {
                                         c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
                                 </g>
                             </svg>
-                        </a>
+                        </button>
                     </Row>
                     <Row className="justify-content-between margin-top-50">
                         <Col xl={6}>
@@ -54,25 +54,25 @@ const Order = (props: any) => {
                                     <h4 className="align-self-center margin-left-30">Информация о покупателе</h4>
                                 </div>
                                 <div className="padding-bottom-70">
-                                    <Row className="padding-left-80 margin-bottom-20">
-                                        <Col>
+                                    <Row className="padding-left-80 row-form">
+                                        <Col lg={true} md={12} xs={12}>
                                             <label>Имя:</label>
                                             <input type="email" className="buy-form" id="inputEmail4"
                                                    placeholder="Иван.." />
                                         </Col>
-                                        <Col>
+                                        <Col lg={true} md={12} xs={12}>
                                             <label>Фамилия:</label>
                                             <input type="password" className="buy-form" id="inputPassword4"
                                                    placeholder="Петров.."/>
                                         </Col>
                                     </Row>
-                                    <Row className="padding-left-80">
-                                        <Col>
+                                    <Row className="padding-left-80 row-form">
+                                        <Col lg={true} md={12} xs={12}>
                                             <label>Контактный телефон:</label>
                                             <input type="email" className="buy-form" id="inputEmail4"
                                                    placeholder="+38 (063) 33 12 565"/>
                                         </Col>
-                                        <Col>
+                                        <Col lg={true} md={12} xs={12}>
                                             <label>E-mail:</label>
                                             <input type="password" className="buy-form" id="inputPassword4"
                                                    placeholder="admin@dion.lviv.ua"/>
@@ -86,27 +86,27 @@ const Order = (props: any) => {
                                     <h4 className="align-self-center margin-left-30">Доставка и оплата</h4>
                                 </div>
                                 <div className="padding-bottom-50">
-                                    <Row className="row padding-left-80 margin-bottom-20">
-                                        <Col>
+                                    <Row className="row padding-left-80 row-form">
+                                        <Col lg={true} md={12} xs={12}>
                                             <label>Ваш город:</label>
                                             <input type="email" className="buy-form" id="inputEmail4"
                                                    placeholder="Львов.."/>
                                         </Col>
-                                        <Col>
+                                        <Col lg={true} md={12} xs={12}>
                                             <label>Отделение "Новой Почты":</label>
                                             <input type="password" className="buy-form" id="inputPassword4"
                                                    placeholder="Отделение №64.."/>
                                         </Col>
                                     </Row>
                                     <Row className="padding-left-80">
-                                        <Col>
+                                        <Col lg={true} md={12} xs={12}>
                                             <label>Оплата:</label>
                                             <select className="buy-select" id="mySelect">
                                                 <option>Оплата при получении</option>
                                                 <option>Безналичный расчет (Privatbank)</option>
                                             </select>
                                         </Col>
-                                        <Col>
+                                        <Col lg={true} md={12} xs={12}>
 
                                         </Col>
                                     </Row>
@@ -117,34 +117,44 @@ const Order = (props: any) => {
                             <Row className="background-white border-radius">
                                 <Col xl={12}
                                     className="padding-top-40 padding-bottom-40 padding-left-70 padding-right-70 border-bottom">
-                                    <Row className="justify-content-between">
-                                        <img src={Waterheater} height="96px"/>
-                                        <div className="align-self-center cart">
-                                            <div className="product-vendor">DION JSD-10,</div>
-                                            <div className="product-category">Премиум (Синяя)</div>
-                                        </div>
-                                        <div className="align-self-center">
-                                            <div className="d-flex">
-                                                <span className="input-group-btn">
-                                                    <button type="button" className="btn-number minus" disabled="disabled"
-                                                    data-type="minus" data-field="quant[1]">
-                                                        <img src={Minus} width="8px"/>
-                                                    </button>
-                                                </span>
-                                                <input type="text" name="quant[1]" className="number input-number"
-                                                       value="1" min="1" max="10" id="quantity" />
-                                                <span className="input-group-btn">
-                                                    <button className="btn-number plus" data-type="plus" data-field="quant[1]">
-                                                        <img src={Plus} width="8px"/>
-                                                    </button>
-                                                </span>
-                                            </div>
-                                        </div>
+                                    <Row className="justify-content-between cart-row">
+                                        <Col lg={3} md={12} xs={12}>
+                                            <Row className="justify-content-center">
+                                                <img src={Waterheater} height="96px" alt="waterheater"/>
+                                            </Row>
+                                        </Col>
+                                        <Col lg={5} md={12} xs={12} className="align-self-center">
+                                            <Row className="justify-content-center">
+                                                <div className="cart">
+                                                    <div className="product-vendor">DION JSD-10,</div>
+                                                    <div className="product-category">Премиум (Синяя)</div>
+                                                </div>
+                                            </Row>
+                                        </Col>
+                                        <Col lg={4} md={12} xs={12} className="align-self-center">
+                                            <Row className="justify-content-center">
+                                                <div>
+                                                    <span className="input-group-btn">
+                                                        <button type="button" className="btn-number minus" disabled="disabled"
+                                                                data-type="minus" data-field="quant[1]">
+                                                            <img src={Minus} width="8px" alt="minus"/>
+                                                        </button>
+                                                    </span>
+                                                    <input type="text" name="quant[1]" className="number input-number"
+                                                           value="1" min="1" max="10" id="quantity" />
+                                                    <span className="input-group-btn">
+                                                        <button className="btn-number plus" data-type="plus" data-field="quant[1]">
+                                                            <img src={Plus} width="8px" alt="plus"/>
+                                                        </button>
+                                                    </span>
+                                                </div>
+                                            </Row>
+                                        </Col>
                                     </Row>
                                 </Col>
                                 <Col xl={12}
                                     className="padding-top-40 padding-bottom-40 padding-left-70 padding-right-70">
-                                    <Row className="justify-content-between">
+                                    <Row className="justify-content-between checkout">
                                         <div className="span">
                                             <p>
                                                 Стоимость (шт.):

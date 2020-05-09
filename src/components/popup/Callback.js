@@ -24,7 +24,7 @@ const Callback = (props: any) => {
                 <Container
                     className="h-100 popup background-gray">
                     <div className="row justify-content-end padding-bottom-10 margin-bottom-50 border-bottom">
-                        <a className="align-self-center" onClick={handleClose}>
+                        <button className="align-self-center" onClick={handleClose}>
                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                  x="0px" y="0px"
                                  viewBox="0 0 492 492"  width="18px" height="18px" fill="#cdcbcb"
@@ -39,18 +39,18 @@ const Callback = (props: any) => {
 							c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
 							</g>
 						    </svg>
-                        </a>
+                        </button>
                     </div>
                     <Row className="justify-content-center">
                         <h3 className="modal-title margin-bottom-20">Обратный звонок:</h3>
                     </Row>
                     <form action="index.html" method="post">
-                        <Row className="row justify-content-center margin-bottom-20">
+                        <Row className="row justify-content-center row-form">
                             <Col lg={true} xs={12} md={12}>
                                 <label>Имя:</label>
                                 <input type="email" className="buy-form" id="inputEmail4" placeholder="Иван.." />
                             </Col>
-                            <Col lg={true} xs={12} md={12} className="margin-left-30">
+                            <Col lg={true} xs={12} md={12}>
                                 <label>Контактный телефон:</label>
                                 <input type="password" className="buy-form" id="inputPassword4"
                                        placeholder="+38 (000) 00 00 000.." />

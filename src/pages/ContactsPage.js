@@ -36,7 +36,9 @@ function ContactsPage() {
                                     frameBorder="0"
                                     allowFullScreen=""
                                     aria-hidden="false"
-                                    tabIndex="0">
+                                    tabIndex="0"
+                                    title="office"
+                                >
                                 </iframe>
                             </Row>
                         </Col>

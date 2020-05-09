@@ -16,9 +16,11 @@ function ProductPage() {
             <Container fluid className="productpage" id="about-product">
                 <Container>
                     <Row className="justify-content-lg-between justify-content-around">
-                        <Col lg={4} md={12} xs={12} className="align-self-center product-image">
-                            <Row className="justify-content-center product-background">
-                                <img src={Waterheater} width="60%" className="drop-shadow"/>
+                        <Col xs={12} md={12} lg={4} className="product-image">
+                            <Row className="justify-content-center">
+                                <div className="slider-waterheater">
+                                    <img src={Waterheater} alt="waterheater" className="slider-waterheater-image drop-shadow"/>
+                                </div>
                             </Row>
                         </Col>
                         <Col lg={8} md={12} xs={12} className="align-self-center">
@@ -77,7 +79,7 @@ function ProductPage() {
                                             </Row>
                                             <Row
                                                 className="background-white variation active">
-                                                <img src={Waterheater} height="64px"/>
+                                                <img src={Waterheater} height="64px" alt="waterheater"/>
                                                 <div className="align-self-center margin-left-30">
                                                     <div className="product-vendor">DION JSD-10,</div>
                                                     <div className="product-category">Премиум (Синяя)</div>
@@ -85,7 +87,7 @@ function ProductPage() {
                                             </Row>
                                             <Row
                                                 className="background-white variation">
-                                                <img src={Waterheater} height="64px"/>
+                                                <img src={Waterheater} height="64px" alt="waterheater"/>
                                                 <div className="align-self-center margin-left-30">
                                                     <div className="product-vendor">DION JSD-10,</div>
                                                     <div className="product-category">Премиум (Синяя)</div>

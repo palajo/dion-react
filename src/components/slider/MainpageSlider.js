@@ -43,12 +43,13 @@ class MainpageSlider extends React.Component {
                 </div>
                 <Slider ref={c => (this.slider = c)} {...settings}>
                     <div>
-                        <Row className="margin-none">
-                            <Col xs={12} md={12} lg={6}
-                                 className="d-flex justify-content-center padding-top-100 padding-bottom-100 product-slider-background">
-                                <div className="d-flex justify-content-center background-white example-image">
-                                    <img src={Waterheater} className="drop-shadow" width="90%" alt="dion-waterheater" />
-                                </div>
+                        <Row>
+                            <Col xs={12} md={12} lg={6} className="product-slider-background padding-top-100 padding-bottom-100">
+                                <Row className="justify-content-center">
+                                    <div className="slider-waterheater">
+                                        <img src={Waterheater} alt="waterheater" className="slider-waterheater-image drop-shadow"/>
+                                    </div>
+                                </Row>
                             </Col>
                             <Col xs={12} md={12} lg={6}
                                  className="ml-auto align-self-center padding-top-100 padding-bottom-100">
@@ -97,12 +98,13 @@ class MainpageSlider extends React.Component {
                         </Row>
                     </div>
                     <div>
-                        <Row className="margin-none">
-                            <Col xs={12} md={12} lg={6}
-                                 className="d-flex justify-content-center padding-top-100 padding-bottom-100 product-slider-background">
-                                <div className="d-flex justify-content-center background-white example-image">
-                                    <img src={Waterheater} className="drop-shadow" width="90%" alt="dion-waterheater" />
-                                </div>
+                        <Row>
+                            <Col xs={12} md={12} lg={6} className="product-slider-background padding-top-100 padding-bottom-100">
+                                <Row className="justify-content-center">
+                                    <div className="slider-waterheater">
+                                        <img src={Waterheater} alt="waterheater" className="slider-waterheater-image drop-shadow"/>
+                                    </div>
+                                </Row>
                             </Col>
                             <Col xs={12} md={12} lg={6}
                                  className="ml-auto align-self-center padding-top-100 padding-bottom-100">

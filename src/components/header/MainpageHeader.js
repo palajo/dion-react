@@ -20,7 +20,7 @@ function MainpageHeader() {
                     <Col>
                         <Row>
                             <NavLink to="/">
-                                <img src={Logo} className="logo"/>
+                                <img src={Logo} className="logo" alt="dion-logo"/>
                             </NavLink>
                             <div className="align-self-center d-none d-lg-block">
                                 <ul className="nav margin-left-50">
@@ -58,14 +58,14 @@ function MainpageHeader() {
                             Dion – это качественный продукт с 12 месяцами гарантии.
                             Удобство, комфорт в использовании, а также доставка по всей Украинe.
                         </p>
-                        <a>
+                        <NavLink to="/catalog">
                             <button className="button">Прейти к каталогу</button>
-                        </a>
+                        </NavLink>
                     </div>
                     <div className="d-none d-lg-block col-lg-5">
                         <div
                             className="d-flex justify-content-center product-background border-left border-bottom ">
-                            <img src={Waterheater} width="60%" className="drop-shadow"/>
+                            <img src={Waterheater} width="60%" className="drop-shadow" alt="waterheater"/>
                         </div>
                     </div>
                 </Row>
