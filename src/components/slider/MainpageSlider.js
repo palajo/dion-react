@@ -43,15 +43,15 @@ class MainpageSlider extends React.Component {
                 </div>
                 <Slider ref={c => (this.slider = c)} {...settings}>
                     <div>
-                        <Row>
-                            <Col xs={12} md={12} lg={6} className="product-slider-background padding-top-100 padding-bottom-100">
-                                <Row className="justify-content-center">
-                                    <div className="slider-waterheater">
+                        <Row className="margin-none">
+                            <Col xs={12} md={6} lg={6} className="product-slider-background padding-top-100 padding-bottom-100">
+                                <Row className="justify-content-center h-100">
+                                    <div className="slider-waterheater align-self-center">
                                         <img src={Waterheater} alt="waterheater" className="slider-waterheater-image drop-shadow"/>
                                     </div>
                                 </Row>
                             </Col>
-                            <Col xs={12} md={12} lg={6}
+                            <Col xs={12} md={6} lg={6}
                                  className="ml-auto align-self-center padding-top-100 padding-bottom-100">
                                 <Row className="justify-content-center slider-info">
                                     <Col xs={12} md={12} lg={9}>
@@ -85,7 +85,7 @@ class MainpageSlider extends React.Component {
                                                         </p>
                                                         <div className="d-flex">
                                                             <h3 className="amount">
-                                                                2 399 <low>грн.</low>
+                                                                2 399 <slow>грн.</slow>
                                                             </h3>
                                                         </div>
                                                     </div>
@@ -98,15 +98,15 @@ class MainpageSlider extends React.Component {
                         </Row>
                     </div>
                     <div>
-                        <Row>
-                            <Col xs={12} md={12} lg={6} className="product-slider-background padding-top-100 padding-bottom-100">
-                                <Row className="justify-content-center">
-                                    <div className="slider-waterheater">
+                        <Row className="margin-none">
+                            <Col xs={12} md={6} lg={6} className="product-slider-background padding-top-100 padding-bottom-100">
+                                <Row className="justify-content-center h-100">
+                                    <div className="slider-waterheater align-self-center">
                                         <img src={Waterheater} alt="waterheater" className="slider-waterheater-image drop-shadow"/>
                                     </div>
                                 </Row>
                             </Col>
-                            <Col xs={12} md={12} lg={6}
+                            <Col xs={12} md={6} lg={6}
                                  className="ml-auto align-self-center padding-top-100 padding-bottom-100">
                                 <Row className="justify-content-center slider-info">
                                     <Col xs={12} md={12} lg={9}>
@@ -140,7 +140,7 @@ class MainpageSlider extends React.Component {
                                                         </p>
                                                         <div className="d-flex">
                                                             <h3 className="amount">
-                                                                2 399 <low>грн.</low>
+                                                                2 399 <slow>грн.</slow>
                                                             </h3>
                                                         </div>
                                                     </div>

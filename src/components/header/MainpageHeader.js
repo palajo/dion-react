@@ -22,7 +22,7 @@ function MainpageHeader() {
                             <NavLink to="/">
                                 <img src={Logo} className="logo" alt="dion-logo"/>
                             </NavLink>
-                            <div className="align-self-center d-none d-lg-block">
+                            <div className="align-self-center d-none d-xl-block">
                                 <ul className="nav margin-left-50">
                                     <li className="nav-item">
                                         <Link className="nav-link" to="#about">О нас</Link>
@@ -49,7 +49,7 @@ function MainpageHeader() {
                     <MobileNavigation/>
                 </Row>
                 <Row className="header-text">
-                    <div className="col-xs-12 col-lg-7 ml-auto align-self-center">
+                    <Col xs={12} md={7} lg={7} className="ml-auto align-self-center">
                         <h1 className="max-width-600">
                             Газовые колонки качества
                             люкс по выгодной цене!
@@ -61,13 +61,14 @@ function MainpageHeader() {
                         <NavLink to="/catalog">
                             <button className="button">Прейти к каталогу</button>
                         </NavLink>
-                    </div>
-                    <div className="d-none d-lg-block col-lg-5">
-                        <div
-                            className="d-flex justify-content-center product-background border-left border-bottom ">
-                            <img src={Waterheater} width="60%" className="drop-shadow" alt="waterheater"/>
-                        </div>
-                    </div>
+                    </Col>
+                    <Col lg={5} md={5} className="d-none d-md-block d-lg-block">
+                        <Row className="justify-content-center">
+                            <div className="slider-waterheater product-background border-left border-bottom">
+                                <img src={Waterheater} alt="waterheater" className="slider-waterheater-image drop-shadow"/>
+                            </div>
+                        </Row>
+                    </Col>
                 </Row>
             </Container>
         </header>

@@ -99,7 +99,7 @@ function MainPage() {
                 <div className="space">
                 </div>
                 <Row className="stats">
-                    <Col xs={12} md={12} lg={4}>
+                    <Col xs={12} md={4} lg={4}>
                         <Row>
                             <Col lg={12} className="d-flex justify-content-center">
                                 <div className="icon waterheater margin-bottom-30">
@@ -116,7 +116,7 @@ function MainPage() {
                             </Col>
                         </Row>
                     </Col>
-                    <Col xs={12} md={12} lg={4}>
+                    <Col xs={12} md={4} lg={4}>
                         <Row>
                             <Col lg={12} className="d-flex justify-content-center">
                                 <div className="icon clock margin-bottom-30">
@@ -133,7 +133,7 @@ function MainPage() {
                             </Col>
                         </Row>
                     </Col>
-                    <Col xs={12} md={12} lg={4}>
+                    <Col xs={12} md={4} lg={4}>
                         <Row>
                             <Col lg={12} className="d-flex justify-content-center">
                                 <div className="icon waterheater margin-bottom-30">
@@ -153,14 +153,14 @@ function MainPage() {
                 </Row>
             </Container>
             <Container fluid className="padding-top-150 padding-bottom-150 background-gray" id="contacts">
-                <Container>
+                <Container className="max-width-900">
                     <Row className="justify-content-center">
                         <h3 className="text-center">Есть вопросы? Мы ответим!</h3>
                     </Row>
                     <div className="space">
                     </div>
                     <Row className="justify-content-center">
-                        <form>
+                        <form className="w-100">
                             <Row>
                                 <Col>
                                     <label>Имя:</label>

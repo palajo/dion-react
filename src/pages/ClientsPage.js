@@ -15,8 +15,8 @@ function ClientsPage() {
             <Header/>
             <body>
                 <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-                    <div className="background-blue sidebar">
-                        <Nav variant="pills" className="flex-column margin-top-50">
+                    <div className="sidebar">
+                        <Nav variant="pills" className="flex-lg-column ">
                             <Nav.Item>
                                 <Nav.Link eventKey="first" exact>Гарантия</Nav.Link>
                             </Nav.Item>
@@ -56,7 +56,7 @@ function ClientsPage() {
                             <Tab.Pane eventKey="second">
                                 <h3 className="margin-bottom-50">Доставка:</h3>
                                 <Row className="margin-bottom-100">
-                                    <Col lg={4} className="company-icon-graphic">
+                                    <Col lg={4} md={4} xs={12} className="company-icon-graphic">
                                         <Row>
                                             <Col lg={12} className="margin-bottom-20">
                                                 <img src={NovaPoshta} height="30px" alt="Nova Poshta"/>
@@ -72,7 +72,7 @@ function ClientsPage() {
                                             </Col>
                                         </Row>
                                     </Col>
-                                    <Col lg={4} className="company-icon-graphic">
+                                    <Col lg={4} md={4} xs={12} className="company-icon-graphic">
                                         <Row>
                                             <Col lg={12} className="margin-bottom-20">
                                                 <img src={MeestExpress} height="30px" alt="Meest Express"/>
@@ -88,7 +88,7 @@ function ClientsPage() {
                                             </Col>
                                         </Row>
                                     </Col>
-                                    <Col lg={4} className="company-icon-graphic">
+                                    <Col lg={4} md={4} xs={12} className="company-icon-graphic">
                                         <Row>
                                             <Col lg={12} className="margin-bottom-20">
                                                 <img src={Automobile} height="30px" alt="Takeaway"/>
@@ -107,7 +107,7 @@ function ClientsPage() {
                                 </Row>
                                 <h3 className="margin-bottom-50">Оплата:</h3>
                                 <Row className="margin-bottom-100">
-                                    <Col lg={4} className="company-icon-graphic">
+                                    <Col lg={4} md={4} xs={12} className="company-icon-graphic">
                                         <Row className="row">
                                             <Col lg={12} className="margin-bottom-20">
                                                 <div className="icon payment">
@@ -124,7 +124,7 @@ function ClientsPage() {
                                             </Col>
                                         </Row>
                                     </Col>
-                                    <Col lg={4} className="company-icon-graphic">
+                                    <Col lg={4} md={4} xs={12} className="company-icon-graphic">
                                         <Row className="row">
                                             <Col lg={12} className="margin-bottom-20">
                                                 <div className="icon buy">

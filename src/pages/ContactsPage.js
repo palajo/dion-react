@@ -12,7 +12,7 @@ function ContactsPage() {
             <body>
                 <Container fluid className="background-dark">
                     <Row>
-                        <Col lg={6}>
+                        <Col lg={6} md={7} xs={12}>
                             <Row className="justify-content-center h-100 contacts-slider">
                                 <Col lg={8} className="align-self-center">
                                     <h1 className="white">
@@ -28,8 +28,8 @@ function ContactsPage() {
                                 </Col>
                             </Row>
                         </Col>
-                        <Col lg={6}>
-                            <Row className="justify-content-end">
+                        <Col lg={6} md={5} xs={12}>
+                            <Row className="justify-content-end h-100">
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1922.2878080879375!2d23.990473325502446!3d49.85298037243729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add959e071897%3A0xa04d6fe34d5a41e6!2z0YPQuy4g0KjQtdCy0YfQtdC90LrQviwgOCwg0JvRjNCy0L7Qsiwg0JvRjNCy0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1sru!2sua!4v1586257069400!5m2!1sru!2sua"
                                     className="map"

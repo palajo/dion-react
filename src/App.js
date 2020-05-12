@@ -8,6 +8,7 @@ import './styles/fonts.scss';
 import './styles/icons.scss';
 
 import './styles/adaptation/mobile.scss';
+import './styles/adaptation/tablet.scss';
 
 
 import MainPage from "./pages/MainPage";

@@ -10,7 +10,7 @@ function Footer() {
                     <Col>
                         <img src={Logo} height="40" alt="dion-logo" />
                     </Col>
-                    <Col className="d-none d-lg-block">
+                    <Col className="d-none d-md-block">
                         <p className="margin-bottom-10 footer-heading ">
                             Карта сайта:
                         </p>
@@ -29,7 +29,7 @@ function Footer() {
                             </li>
                         </ul>
                     </Col>
-                    <Col className="d-none d-lg-block">
+                    <Col className="d-none d-md-block">
                         <p className="margin-bottom-10 footer-heading">
                             Покупателю:
                         </p>
@@ -61,7 +61,7 @@ function Footer() {
                             </li>
                         </ul>
                     </Col>
-                    <Col className="d-none d-lg-block">
+                    <Col className="d-none d-md-block">
                         <p className="margin-bottom-10 footer-heading">
                             Соц. сети:
                         </p>
