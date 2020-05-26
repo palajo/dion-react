@@ -1,8 +1,9 @@
-import React, {useState} from 'react';
-import {Container, Row, Col, Modal} from 'react-bootstrap';
+import React from 'react';
+import {Container, Row, Col} from 'react-bootstrap';
 
 import Waterheater from "../../../images/waterheater.png";
 import ProductOrder from "./ProductOrder";
+import Breadcrumbs from "../../navigation/Breadcrumbs";
 
 // setting Benefit parameters
 type ProductInfoProps = {
@@ -16,7 +17,6 @@ type ProductInfoProps = {
 
 
 export const ProductInfo = ({productImage, productType, productVendor, productCategory, productDescription, productPrice}: ProductInfoProps) => {
-
     return (
         <Container fluid className="productpage" id="about-product">
             <Container>
@@ -34,6 +34,9 @@ export const ProductInfo = ({productImage, productType, productVendor, productCa
                             <Col lg={8} md={7} xs={12} className="product-about">
                                 <Row className="justify-content-center">
                                     <Col lg={9} xs={12}>
+                                        <Row>
+                                            <Breadcrumbs />
+                                        </Row>
                                         <Row>
                                             <div className="product-type">{productType}</div>
                                             <div className="hr-100 margin-left-20 align-self-center"></div>
@@ -85,16 +88,14 @@ export const ProductInfo = ({productImage, productType, productVendor, productCa
                                         <Row className="margin-bottom-15">
                                             <p className="dark"><b>Доступные вариации:</b></p>
                                         </Row>
-                                        <Row
-                                            className="background-white variation active">
+                                        <Row className="background-white variation active">
                                             <img src={Waterheater} height="64px" alt="waterheater"/>
                                             <div className="align-self-center margin-left-30">
                                                 <div className="product-vendor">DION JSD-10,</div>
                                                 <div className="product-category">Премиум (Синяя)</div>
                                             </div>
                                         </Row>
-                                        <Row
-                                            className="background-white variation">
+                                        <Row className="background-white variation">
                                             <img src={Waterheater} height="64px" alt="waterheater"/>
                                             <div className="align-self-center margin-left-30">
                                                 <div className="product-vendor">DION JSD-10,</div>

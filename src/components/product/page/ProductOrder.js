@@ -1,11 +1,6 @@
 import React, {useState} from 'react';
 import {Container, Row, Col, Modal} from 'react-bootstrap';
 
-import Waterheater from "../../../images/waterheater.png";
-import Minus from "../../../images/minus.svg";
-import Plus from "../../../images/plus.svg";
-import ProductInfo from "./ProductInfo";
-
 // setting Benefit parameters
 type orderProductInfoProps = {
     orderProductImage: string,

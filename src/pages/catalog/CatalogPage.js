@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 
-import Header from "../components/header/Header";
-import Footer from "../components/footer/Footer";
-import CategorySlider from "../components/slider/CategorySlider";
-import Photopanel from "../components/categories/Photopanel";
+import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
+import CategorySlider from "../../components/slider/CategorySlider";
+import Categories from '../../components/categories/Categories';
 
 function CatalogPage() {
     return (
@@ -18,7 +18,7 @@ function CatalogPage() {
                     </Row>
                     <div className="space">
                     </div>
-                    <Photopanel />
+                    <Categories />
                 </Container>
             </body>
             <Footer/>
