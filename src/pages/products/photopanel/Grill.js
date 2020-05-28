@@ -9,6 +9,7 @@ import ProductInfo from "../../../components/product/page/ProductInfo"
 import ProductSpecs from "../../../components/product/page/ProductSpecs";
 
 import Grill from "../../../images/products/dion-jsd-10-grill.png";
+import {Page} from "../../../components/categories/Categories";
 
 function GrillPage() {
     return (
@@ -16,26 +17,7 @@ function GrillPage() {
             <Header/>
             <body>
 
-            <ProductInfo
-                productImage={Grill}
-                productType="ДЫМОХОДНАЯ"
-                productVendor="DION JSD-10"
-                productCategory="Гриль"
-                productDescription="Водонагреватели «Dion» разработаны в сдержанном стиле. Мы сделали упор на простоте
-                и безопасности при эксплуатации продукта. Газовые колонки оснащены всеми необходимыми функциями
-                безопасности и готовы служить вам долгие годы."
-                productPrice="2399"
-            />
-
-            <ProductSpecs
-                specsModel="JSD-10"
-                specsTypeOfGas="Природный газ"
-                specsNominalPressure="1300 Па"
-                specsNominalWarmthPower="20 кВт"
-                specsWorkingWaterPressure="От 0.15 до 6.00"
-                specsWarmWaterOutput="10 л./мин."
-                specsSizes="70х35х20"
-            />
+            <Page />
 
             <Container fluid className="padding-top-150 padding-bottom-150 background-gray">
                 <Container>

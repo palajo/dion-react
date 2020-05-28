@@ -1,14 +1,11 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import Header from "../components/header/Header";
-import Footer from "../components/footer/Footer";
+import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
 
-import Waterheater from "../images/waterheater.png";
-import Callback from "../components/popup/Callback";
-import ProductInfo from "../components/product/page/ProductInfo"
-import ProductSpecs from "../components/product/page/ProductSpecs";
-import {ProductView} from '../components/categories/Categories';
+import Callback from "../../components/popup/Callback";
+import {Page} from "../../components/categories/Categories";
 
 function ProductPage() {
     return (
@@ -16,17 +13,7 @@ function ProductPage() {
             <Header/>
             <body>
 
-            <ProductView />
-
-            <ProductSpecs
-                specsModel="JSD-10"
-                specsTypeOfGas="Природный газ"
-                specsNominalPressure="1300 Па"
-                specsNominalWarmthPower="20 кВт"
-                specsWorkingWaterPressure="От 0.15 до 6.00"
-                specsWarmWaterOutput="10 л./мин."
-                specsSizes="70х35х20"
-            />
+            <Page />
 
             <Container fluid className="padding-top-150 padding-bottom-150 background-gray">
                 <Container>

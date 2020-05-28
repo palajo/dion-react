@@ -4,6 +4,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 import Waterheater from "../../../images/waterheater.png";
 import ProductOrder from "./ProductOrder";
 import Breadcrumbs from "../../navigation/Breadcrumbs";
+import ProductSlider from "../../slider/ProductSlider";
 
 // setting Benefit parameters
 type ProductInfoProps = {
@@ -88,20 +89,8 @@ export const ProductInfo = ({productImage, productType, productVendor, productCa
                                         <Row className="margin-bottom-15">
                                             <p className="dark"><b>Доступные вариации:</b></p>
                                         </Row>
-                                        <Row className="background-white variation active">
-                                            <img src={Waterheater} height="64px" alt="waterheater"/>
-                                            <div className="align-self-center margin-left-30">
-                                                <div className="product-vendor">DION JSD-10,</div>
-                                                <div className="product-category">Премиум (Синяя)</div>
-                                            </div>
-                                        </Row>
-                                        <Row className="background-white variation">
-                                            <img src={Waterheater} height="64px" alt="waterheater"/>
-                                            <div className="align-self-center margin-left-30">
-                                                <div className="product-vendor">DION JSD-10,</div>
-                                                <div className="product-category">Премиум (Синяя)</div>
-                                            </div>
-                                        </Row>
+
+                                        <ProductSlider />
                                     </Col>
                                 </Row>
                             </Col>

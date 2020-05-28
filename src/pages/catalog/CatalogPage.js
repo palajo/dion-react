@@ -4,7 +4,7 @@ import { Container, Row } from 'react-bootstrap';
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import CategorySlider from "../../components/slider/CategorySlider";
-import Categories from '../../components/categories/Categories';
+import {Categories} from '../../components/categories/Categories';
 
 function CatalogPage() {
     return (

@@ -931,7 +931,7 @@ textarea.my-form-input-message:focus {
 .variation {
   cursor: pointer;
 
-  padding: 10px 20px;
+  padding: 10px 40px;
   margin-bottom: 15px;
 
   border-bottom: 1px solid #dbdbdb;
@@ -939,7 +939,7 @@ textarea.my-form-input-message:focus {
 
 .variation .product-vendor {
   font-size: 14px;
-  line-height: 14px;
+  line-height: 16px;
 
   font-family: 'Futura';
   font-weight: 400;
@@ -947,7 +947,7 @@ textarea.my-form-input-message:focus {
 }
 
 .variation .product-category {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 18px;
 
   font-family: 'Futura';
@@ -1331,5 +1331,44 @@ input.number {
     content: '';
     margin-left: 0;
     margin-right: 0;
+  }
+}
+
+.slick-slide {
+    outline: none;
+    div{
+      outline: none;
+    }
+}
+
+.ProductSlider-arrow{
+  float: left;
+  background: #1f1f1f;
+
+  padding: 10px 15px;
+  cursor: pointer;
+
+  .ProductSlider-arrow-icon{
+
+    width: 20px;
+    height: 10px;
+
+    background-size: cover !important;
+
+    &.top{
+        background: url(../images/arrow-top.svg);
+    }
+    &.bottom{
+        background: url(../images/arrow-bottom.svg);
+    }
+  }
+
+  &:last-child{
+    border-left: 1px solid #535353;
+  }
+
+  &:hover{
+    background: #333;
+    transition: 0.1s ease;
   }
 }

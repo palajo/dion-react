@@ -1,6 +1,0 @@
-{
-  "items": [
-    { "category": "premium", "id": "dion-jsd-10-premium-black", "img": "PremiumBlack", "vendor": "Dion JSD-10", "name": "Премиум (Черная)", "price": 2399 },
-    { "category": "premium", "id": "dion-jsd-10-premium-blue", "img": "PremiumBlue", "vendor": "Dion JSD-10", "name": "Премиум (Синяя)", "price": 2399 }
-  ]
-}

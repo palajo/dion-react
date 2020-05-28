@@ -1,23 +1,29 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import Products from "./Products";
+import Header from "../header/Header";
+import ProductInfo from "../product/page/ProductInfo";
+import ProductSpecs from "../product/page/ProductSpecs";
+import {Col, Container, Row} from "react-bootstrap";
+import Callback from "../popup/Callback";
+import Footer from "../footer/Footer";
+import React from "react";
 
-import Header from "../components/header/Header";
-import Footer from "../components/footer/Footer";
+const ProductView = ({match}) => {
 
-import Waterheater from "../images/waterheater.png";
-import Callback from "../components/popup/Callback";
-import ProductInfo from "../components/product/page/ProductInfo"
-import ProductSpecs from "../components/product/page/ProductSpecs";
-import {ProductView} from '../components/categories/Categories';
+    const product = Products.find(item => item.id === match.params.id);
+    console.log(Products, match.params.id)
 
-function ProductPage() {
-    return (
+    return(
         <>
             <Header/>
             <body>
-
-            <ProductView />
-
+            <ProductInfo
+                productImage={product.image}
+                productType={product.type}
+                productVendor={product.brand + " " + product.model}
+                productCategory={product.title}
+                productDescription={product.description}
+                productPrice={product.price}
+            />
             <ProductSpecs
                 specsModel="JSD-10"
                 specsTypeOfGas="Природный газ"
@@ -27,7 +33,6 @@ function ProductPage() {
                 specsWarmWaterOutput="10 л./мин."
                 specsSizes="70х35х20"
             />
-
             <Container fluid className="padding-top-150 padding-bottom-150 background-gray">
                 <Container>
                     <Row>
@@ -64,4 +69,4 @@ function ProductPage() {
     );
 }
 
-export default ProductPage;
+export default ProductView;

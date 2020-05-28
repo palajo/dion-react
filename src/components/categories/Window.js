@@ -18,7 +18,7 @@ const Window = ({windowCategory, windowId, windowImage, windowVendor, windowName
     return(
 
         <Col xs={12} md={6} lg={3}>
-            <NavLink to={`products/${windowCategory}/${windowId}`}>
+            <NavLink to={`product/${windowId}`} key={windowId}>
                 <div
                     className="product-block background-gray border-bottom padding-top-30 padding-bottom-20 ">
                     <div className="product-image text-center">
