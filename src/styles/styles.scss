@@ -1340,7 +1340,11 @@ input.number {
       outline: none;
     }
 }
-
+.ProductSlider{
+  .slick-track{
+    height: auto !important;
+  }
+}
 .ProductSlider-arrow{
   float: left;
   background: #1f1f1f;

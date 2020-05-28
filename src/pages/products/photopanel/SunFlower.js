@@ -5,8 +5,8 @@ import Header from "../../../components/header/Header";
 import Footer from "../../../components/footer/Footer";
 
 import Callback from "../../../components/popup/Callback";
-import ProductInfo from "../../../components/product/page/ProductInfo"
-import ProductSpecs from "../../../components/product/page/ProductSpecs";
+import ProductInfo from "../../../components/product/photopanel/page/ProductInfo"
+import ProductSpecs from "../../../components/product/components/ProductSpecs";
 
 import Sunflower from "../../../images/products/dion-jsd-10-sunflower.png";
 

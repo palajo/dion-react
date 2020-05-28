@@ -4,11 +4,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 
-import Waterheater from "../images/waterheater.png";
 import Callback from "../components/popup/Callback";
-import ProductInfo from "../components/product/page/ProductInfo"
-import ProductSpecs from "../components/product/page/ProductSpecs";
-import {ProductView} from '../components/categories/Categories';
+import ProductSpecs from "../components/product/components/ProductSpecs";
+import ProductView from '../components/product/categories/ProductView';
 
 function ProductPage() {
     return (

@@ -5,7 +5,7 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 
 import Callback from "../../components/popup/Callback";
-import {Page} from "../../components/categories/Categories";
+import {Page} from "../../components/product/categories/Categories";
 
 function ProductPage() {
     return (
