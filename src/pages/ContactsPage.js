@@ -4,10 +4,19 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 import Callback from "../components/popup/Callback";
+import {Helmet} from "react-helmet";
 
 function ContactsPage() {
     return (
         <>
+            <Helmet>
+                <title>Контакты – Газовые колонки Dion – от 2399 грн.</title>
+                <meta charSet="utf-8" />
+                <meta name="description" content={`Звоните! Мы всегда рады ответить на все Ваши вопросы. Dion всегда 
+                готов решить все пробелмы с нагреванием воды.`} />
+                <meta name="robots" content="index, follow" />
+                <link rel="canonical" href="http://dion.lviv.ua/" />
+            </Helmet>
             <Header/>
             <body>
                 <Container fluid className="background-dark">

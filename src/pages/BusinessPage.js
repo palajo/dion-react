@@ -6,10 +6,19 @@ import Footer from "../components/footer/Footer";
 
 import Waterheater from '../images/waterheater.png';
 import Partner from '../components/popup/Partner';
+import {Helmet} from "react-helmet";
 
 function BusinessPage() {
     return (
         <>
+            <Helmet>
+                <title>Для бизнеса – Газовые колонки Dion</title>
+                <meta charSet="utf-8" />
+                <meta name="description" content={`Dion рад сотрудничать со всеми! Оставляйте заявку, получайте
+                быстрый и четкий ответ. Мы всегда заинетерисованы в выигрыше каждого.`} />
+                <meta name="robots" content="index, follow" />
+                <link rel="canonical" href="http://dion.lviv.ua/" />
+            </Helmet>
             <Header/>
             <body>
                 <Container fluid className="padding-none">

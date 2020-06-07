@@ -1,13 +1,24 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import {Helmet} from "react-helmet";
+
+
 import MainpageHeader from "../components/header/MainpageHeader";
 import Footer from "../components/footer/Footer";
-
 import MainpageSlider from "../components/slider/MainpageSlider";
 
 function MainPage() {
     return(
         <>
+            <Helmet>
+                <title>Газовые колонки Dion – Доставка по всей Украине – от 2399 грн.</title>
+                <meta charSet="utf-8" />
+                <meta name="description" content="Газовые проточные водонагреватели Dion по самым выгодным ценам
+                и доставкой по всей Украине от 2399 грн." />
+                <meta name="robots" content="index, follow" />
+
+                <link rel="canonical" href="http://dion.lviv.ua/" />
+            </Helmet>
             <MainpageHeader />
             <body>
             <Container className="padding-top-150 padding-bottom-150 container-1200" id="benefits">

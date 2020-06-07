@@ -8,10 +8,19 @@ import {PhotopanelCategory} from "../components/product/photopanel/category/Phot
 import {PremiumCategory} from "../components/product/premium/category/PremiumCategory";
 import {TurboCategory} from "../components/product/turbo/category/TurboCategory";
 import {VictoriaCategory} from "../components/product/victoria/category/VictoriaCategory";
+import {Helmet} from "react-helmet";
 
 function CatalogPage() {
     return (
         <>
+            <Helmet>
+                <title>Каталог – Газовые колонки Dion – от 2399 грн.</title>
+                <meta charSet="utf-8" />
+                <meta name="description" content={`Газовые проточные водонагрватели Dion – это качественный продукт
+                с 12 месяцами гарантии. Сервисным обслуживанием и доставкой по всей Украине.`} />
+                <meta name="robots" content="index, follow" />
+                <link rel="canonical" href="http://dion.lviv.ua/" />
+            </Helmet>
             <Header/>
             <body>
                 <CategorySlider/>

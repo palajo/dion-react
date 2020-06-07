@@ -6,6 +6,8 @@ import Callback from "../../../popup/Callback";
 import Footer from "../../../footer/Footer";
 import React from "react";
 import PhotopanelApi from "../api/PhotopanelApi";
+import {Helmet} from "react-helmet";
+import {NavLink} from "react-router-dom";
 
 const PhotopanelProductView = ({match}) => {
     
@@ -14,6 +16,15 @@ const PhotopanelProductView = ({match}) => {
 
     return(
         <>
+            <Helmet>
+                <title>{product.brand} {product.model}, {product.title} – Газовые колонки от 2399 грн.</title>
+                <meta charSet="utf-8" />
+                <meta name="description" content={`${product.brand} ${product.model}, ${product.title} — газовые проточные
+                водонагреватели с открытой камерой сгорания, которые обеспечат производительность горячей воды 10 л/мин,
+                чего достаточно для 2-х точек водоразбора`} />
+                <meta name="robots" content="index, follow" />
+                <link rel="canonical" href="http://dion.lviv.ua/" />
+            </Helmet>
             <Header/>
             <body>
             <ProductInfo

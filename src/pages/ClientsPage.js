@@ -8,10 +8,19 @@ import GuaranteeImage from '../images/guarantee.jpg';
 import NovaPoshta from '../images/companies/novaposhta.png';
 import MeestExpress from '../images/companies/meestexpress.png';
 import Automobile from '../images/automobile.svg';
+import {Helmet} from "react-helmet";
 
 function ClientsPage() {
     return (
         <>
+            <Helmet>
+                <title>Для клиента – Газовые колонки Dion</title>
+                <meta charSet="utf-8" />
+                <meta name="description" content={`Мы, как компания с огромным опытом работы несем отвественность за
+                наш продукт. Вы можете обратиться к нам с любой проблемой! Ваш Dion.`} />
+                <meta name="robots" content="index, follow" />
+                <link rel="canonical" href="http://dion.lviv.ua/" />
+            </Helmet>
             <Header/>
             <body>
                 <Tab.Container id="left-tabs-example" defaultActiveKey="first">
