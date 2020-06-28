@@ -43,7 +43,7 @@ class TurboVariationSlider extends React.Component {
                                     <NavLink to={`${product.id}`} key={product.id}>
                                         <div>
                                             <Row className="background-white variation active">
-                                                <img src={product.image} height="64px" alt="waterheater"/>
+                                                <img src={product.imagesmall} height="64px" alt="waterheater"/>
                                                 <div className="align-self-center margin-left-30">
                                                     <div className="product-vendor">{product.brand + " " + product.model}</div>
                                                     <div className="product-category">{product.title}</div>

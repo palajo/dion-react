@@ -31,7 +31,7 @@ export const PhotopanelCategory = () => {
                             <Window
                                 windowCategory={product.categoryId}
                                 windowId={product.id}
-                                windowImage={product.image}
+                                windowImage={product.imagesmall}
                                 windowVendor={product.brand + " " + product.model}
                                 windowName={product.title}
                                 windowPrice={product.price}

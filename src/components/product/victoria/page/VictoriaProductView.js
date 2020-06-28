@@ -27,7 +27,7 @@ const VictoriaProductView = ({match}) => {
             <Header/>
             <body>
             <ProductInfo
-                productImage={product.image}
+                productImage={product.imagesmall}
                 productType={product.type}
                 productVendor={product.brand + " " + product.model}
                 productCategory={product.title}
@@ -35,12 +35,12 @@ const VictoriaProductView = ({match}) => {
                 productPrice={product.price}
             />
             <ProductSpecs
-                specsModel="JSD-10"
+                specsModel="JSD-08"
                 specsTypeOfGas="Природный газ"
                 specsNominalPressure="1300 Па"
                 specsNominalWarmthPower="20 кВт"
                 specsWorkingWaterPressure="От 0.15 до 6.00"
-                specsWarmWaterOutput="10 л./мин."
+                specsWarmWaterOutput="8 л./мин."
                 specsSizes="70х35х20"
             />
             <Container fluid className="padding-top-150 padding-bottom-150 background-gray">

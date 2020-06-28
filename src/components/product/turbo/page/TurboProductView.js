@@ -27,7 +27,7 @@ const TurboProductView = ({match}) => {
             <Header/>
             <body>
             <ProductInfo
-                productImage={product.image}
+                productImage={product.imagesmall}
                 productType={product.type}
                 productVendor={product.brand + " " + product.model}
                 productCategory={product.title}

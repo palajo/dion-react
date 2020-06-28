@@ -7,7 +7,6 @@ import Footer from "../../../footer/Footer";
 import React from "react";
 import PhotopanelApi from "../api/PhotopanelApi";
 import {Helmet} from "react-helmet";
-import {NavLink} from "react-router-dom";
 
 const PhotopanelProductView = ({match}) => {
     
@@ -28,7 +27,7 @@ const PhotopanelProductView = ({match}) => {
             <Header/>
             <body>
             <ProductInfo
-                productImage={product.image}
+                productImage={product.imagesmall}
                 productType={product.type}
                 productVendor={product.brand + " " + product.model}
                 productCategory={product.title}

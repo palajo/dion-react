@@ -1,11 +1,16 @@
 import HalfTurbo from "../../../../images/products/dion-jsd-10-half-turbo.png";
 import Turbo from "../../../../images/products/dion-jsd-10-turbo.png";
 
+import HalfTurboSmall from "../../../../images/products/small/dion-jsd-10-half-turbo.png";
+import TurboSmall from "../../../../images/products/small/dion-jsd-10-turbo.png";
+import PremiumBlackSmall from "../../../../images/products/small/dion-jsd-10-premium-black.png";
+
 const TurboApi = [
     {
         categoryId: 'Turbo',
         id: 'dion-jsd-10-turbo',
         image: Turbo,
+        imagesmall: TurboSmall,
         brand: 'Dion',
         model: 'JSD-10',
         title: 'Турбо',
@@ -21,6 +26,7 @@ const TurboApi = [
         categoryId: 'Turbo',
         id: 'dion-jsd-10-half-turbo',
         image: HalfTurbo,
+        imagesmall: HalfTurboSmall,
         brand: 'Dion',
         model: 'JSD-10',
         title: 'Полу-турбо',

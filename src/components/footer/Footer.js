@@ -16,16 +16,16 @@ function Footer() {
                         </p>
                         <ul className="nav flex-column">
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="#">Главная</NavLink>
+                                <NavLink className="nav-link" to="/">Главная</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="#">Для бизнеса</NavLink>
+                                <NavLink className="nav-link" to="/business">Для бизнеса</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="#">Каталог</NavLink>
+                                <NavLink className="nav-link" to="/catalog">Каталог</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="#">Контакты</NavLink>
+                                <NavLink className="nav-link" to="/contacts">Контакты</NavLink>
                             </li>
                         </ul>
                     </Col>
@@ -35,13 +35,13 @@ function Footer() {
                         </p>
                         <ul className="nav flex-column">
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="#">Гарантия</NavLink>
+                                <NavLink className="nav-link" to="/clients">Гарантия</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="#">Доставка и оплата</NavLink>
+                                <NavLink className="nav-link" to="/clients">Доставка и оплата</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="#">Документы</NavLink>
+                                <NavLink className="nav-link" to="/clients">Сервисный центр</NavLink>
                             </li>
                         </ul>
                     </Col>
@@ -51,13 +51,13 @@ function Footer() {
                         </p>
                         <ul className="nav flex-column">
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="#">Львов, ул. Моринецкая 8а</NavLink>
+                                <NavLink className="nav-link" to="/contacts">Львов, ул. Моринецкая 8а</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="#">+38 (063) 03 16 797</NavLink>
+                                <NavLink className="nav-link" to="tel:+38 (063) 03 16 797">+38 (063) 03 16 797</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="#">+38 (097) 12 52 543</NavLink>
+                                <NavLink className="nav-link" to="tel:+38 (097) 12 52 543">+38 (097) 12 52 543</NavLink>
                             </li>
                         </ul>
                     </Col>

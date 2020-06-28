@@ -1,11 +1,15 @@
 import PremiumBlack from "../../../../images/products/dion-jsd-10-premium-black.png";
 import PremiumBlue from "../../../../images/products/dion-jsd-10-premium-blue.png";
 
+import PremiumBlackSmall from "../../../../images/products/small/dion-jsd-10-premium-black.png";
+import PremiumBlueSmall from "../../../../images/products/small/dion-jsd-10-premium-blue.png";
+
 const PremiumApi = [
     {
         categoryId: 'Premium',
         id: 'dion-jsd-10-premium-black',
         image: PremiumBlack,
+        imagesmall: PremiumBlackSmall,
         brand: 'Dion',
         model: 'JSD-10',
         title: 'Премиум (Черная)',
@@ -21,6 +25,7 @@ const PremiumApi = [
         categoryId: 'Premium',
         id: 'dion-jsd-10-premium-blue',
         image: PremiumBlue,
+        imagesmall: PremiumBlueSmall,
         brand: 'Dion',
         model: 'JSD-10',
         title: 'Премиум (Синяя)',
