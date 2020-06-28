@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Modal, Col, Container, Row} from 'react-bootstrap';
+import {Modal, Container} from 'react-bootstrap';
 
 const Partner = (props: any) => {
 

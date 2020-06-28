@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Container, Row, Col, Modal} from 'react-bootstrap';
+import {Container, Modal} from 'react-bootstrap';
 
 // setting Benefit parameters
 type orderProductInfoProps = {

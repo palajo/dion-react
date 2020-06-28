@@ -457,6 +457,7 @@ footer {
   .burgermenu-text {
     color: white;
     padding-right: 15px;
+    font-weight: 500;
   }
 
   .burgermenu-icon {
@@ -783,20 +784,29 @@ textarea.my-form-input-message:focus {
 
 
 /* ------- slider */
-.category-slider {
+.slider{
   width: 100%;
   height: 800px;
 
   background-size: cover;
-  background: url(../images/category.jpg);
+  background: black;
+}
+.mainpage-slider{
+  background: linear-gradient(
+                  to right, #f8f8f8 0%, #f8f8f8 65%, rgba(0, 0, 0, 0) 65%, rgba(0, 0, 0, 0) 100%) left,
+  url(../images/background-header-right.jpg) right;
+}
+
+.category-slider {
+  background: linear-gradient(
+                  to right, #f8f8f8 0%, #f8f8f8 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%) left,
+  url(../images/category.jpg) right;
 }
 
 .business-slider {
-  width: 100%;
-  height: 800px;
-
-  background-size: cover;
-  background: url(../images/business.jpg);
+  background: linear-gradient(
+                  to right, #f8f8f8 0%, #f8f8f8 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%) left,
+  url(../images/business.jpg) right;
 }
 
 .slider-waterheater {
@@ -1045,6 +1055,8 @@ ul.faq-list > li:hover {
   position: absolute;
   height: 100%;
   width: 350px;
+
+  padding-top: 50px;
 
   background: #176DE5;
 
@@ -1301,7 +1313,7 @@ input.number {
   padding-right: 100px;
 }
 
-.map {
+.contacts-map {
   height: 800px;
   width: 100%;
 }

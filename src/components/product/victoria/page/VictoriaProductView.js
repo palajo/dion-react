@@ -68,7 +68,7 @@ const VictoriaProductView = ({match}) => {
                         </Col>
                         <Col className="text-left text-lg-center align-self-center">
                             <h2 className="margin-bottom-10">Нужна помощь в выборе?</h2>
-                            <h2>+38 (063) 03 16 797</h2>
+                            <h2>+38 (050) 330 36 10</h2>
                         </Col>
                     </Row>
                 </Container>

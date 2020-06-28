@@ -7,6 +7,7 @@ import Footer from "../components/footer/Footer";
 import Waterheater from '../images/waterheater.png';
 import Partner from '../components/popup/Partner';
 import {Helmet} from "react-helmet";
+import BusinessSlider from "../components/slider/BusinessSlider";
 
 function BusinessPage() {
     return (
@@ -21,26 +22,7 @@ function BusinessPage() {
             </Helmet>
             <Header/>
             <body>
-                <Container fluid className="padding-none">
-                    <Row className="business-slider margin-none">
-                        <Col xs={12} lg={6} className="background-white-95">
-                            <Row className="justify-content-center h-100">
-                                <Col xs={12} lg={8} className="align-self-center">
-                                    <h1>
-                                        Оптовая торговля с Dion
-                                        это просто!
-                                    </h1>
-                                    <p className="max-width-400 margin-top-30 margin-bottom-30">
-                                        Заполните анкету и мы сразу же ее рассмотрим. Работать с
-                                        нами это выгодно, ведь мы лояльны к своим партнерам.
-                                        Мы рады сотрудничеству!
-                                    </p>
-                                    <Partner />
-                                </Col>
-                            </Row>
-                        </Col>
-                    </Row>
-                </Container>
+                <BusinessSlider />
                 <Container className="padding-top-150 padding-bottom-150">
                     <Row className="justify-content-center">
                         <h3 className="text-center">Как мы работаем?</h3>

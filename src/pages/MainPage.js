@@ -3,9 +3,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 import {Helmet} from "react-helmet";
 
 
-import MainpageHeader from "../components/header/MainpageHeader";
 import Footer from "../components/footer/Footer";
-import MainpageSlider from "../components/slider/MainpageSlider";
+import ProductsSlider from "../components/slider/ProductsSlider";
+import OffersSlider from "../components/slider/OffersSlider";
+import MainpageHeader from "../components/header/MainpageHeader";
 
 function MainPage() {
     return(
@@ -20,6 +21,7 @@ function MainPage() {
                 <link rel="canonical" href="http://dion.lviv.ua/" />
             </Helmet>
             <MainpageHeader />
+            <OffersSlider />
             <body>
             <Container className="padding-top-150 padding-bottom-150 container-1200" id="benefits">
                 <Row className="justify-content-center">
@@ -101,7 +103,7 @@ function MainPage() {
                 </Row>
             </Container>
             <Container fluid className="background-gray padding-none" id="product-slider">
-                <MainpageSlider />
+                <ProductsSlider />
             </Container>
             <Container className="padding-top-150 padding-bottom-150" id="why-we">
                 <Row className="justify-content-center">
@@ -163,7 +165,7 @@ function MainPage() {
                     </Col>
                 </Row>
             </Container>
-            <Container fluid className="padding-top-150 padding-bottom-150 background-gray" id="contacts">
+            <Container fluid className="padding-top-150 padding-bottom-150 background-gray" id="contact-us">
                 <Container className="max-width-900">
                     <Row className="justify-content-center">
                         <h3 className="text-center">Есть вопросы? Мы ответим!</h3>

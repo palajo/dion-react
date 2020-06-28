@@ -3,7 +3,6 @@ import Turbo from "../../../../images/products/dion-jsd-10-turbo.png";
 
 import HalfTurboSmall from "../../../../images/products/small/dion-jsd-10-half-turbo.png";
 import TurboSmall from "../../../../images/products/small/dion-jsd-10-turbo.png";
-import PremiumBlackSmall from "../../../../images/products/small/dion-jsd-10-premium-black.png";
 
 const TurboApi = [
     {

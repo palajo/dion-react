@@ -41,7 +41,7 @@ function ContactsPage() {
                             <Row className="justify-content-end h-100">
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1922.2878080879375!2d23.990473325502446!3d49.85298037243729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add959e071897%3A0xa04d6fe34d5a41e6!2z0YPQuy4g0KjQtdCy0YfQtdC90LrQviwgOCwg0JvRjNCy0L7Qsiwg0JvRjNCy0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1sru!2sua!4v1586257069400!5m2!1sru!2sua"
-                                    className="map"
+                                    className="contacts-map"
                                     frameBorder="0"
                                     allowFullScreen=""
                                     aria-hidden="false"
@@ -65,15 +65,15 @@ function ContactsPage() {
                                 <tbody>
                                     <tr>
                                         <td>E-mail:</td>
-                                        <td>admin@dion.lviv.ua</td>
+                                        <td><a href="mailto:admin@dion.lviv.ua">sales@dion.lviv.ua</a></td>
                                     </tr>
                                     <tr>
                                         <td>Мобильный телефон:</td>
-                                        <td>+38 (050) 330 36 10</td>
+                                        <td><a href="tel:+38 (050) 330 36 10">+38 (050) 330 36 10</a></td>
                                     </tr>
                                     <tr>
                                         <td>Офисный телефон:</td>
-                                        <td>+38 (032) 243 70 64</td>
+                                        <td><a href="tel:+38 (032) 243 70 64">+38 (032) 243 70 64</a></td>
                                     </tr>
                                     <tr>
                                         <td>Рабочее время:</td>

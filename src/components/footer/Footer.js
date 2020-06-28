@@ -54,10 +54,10 @@ function Footer() {
                                 <NavLink className="nav-link" to="/contacts">Львов, ул. Моринецкая 8а</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="tel:+38 (063) 03 16 797">+38 (063) 03 16 797</NavLink>
+                                <a className="nav-link" href="tel:+38 (063) 03 16 797">+38 (063) 03 16 797</a>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="tel:+38 (097) 12 52 543">+38 (097) 12 52 543</NavLink>
+                                <a className="nav-link" href="tel:+38 (097) 12 52 543">+38 (097) 12 52 543</a>
                             </li>
                         </ul>
                     </Col>
@@ -67,10 +67,10 @@ function Footer() {
                         </p>
                         <ul className="nav flex-column">
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="#">Facebook</NavLink>
+                                <a className="nav-link" href="#">Facebook</a>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="#">Instagram</NavLink>
+                                <a className="nav-link" href="#">Instagram</a>
                             </li>
                         </ul>
                     </Col>

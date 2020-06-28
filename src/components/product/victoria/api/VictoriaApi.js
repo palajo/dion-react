@@ -3,7 +3,6 @@ import VictoriaWaterfall from "../../../../images/products/victoria-jsd-08-water
 
 import VictoriaSummerSmall from "../../../../images/products/small/victoria-jsd-08-summer.png";
 import VictoriaWaterfallSmall from "../../../../images/products/small/victoria-jsd-08-waterfall.png";
-import HalfTurboSmall from "../../../../images/products/small/dion-jsd-10-half-turbo.png";
 
 const VictoriaApi = [
     {

@@ -76,25 +76,31 @@
     padding-left: 25px;
     padding-right: 25px;
   }
-  .category-slider{
-    height: 500px;
-  }
-  .category-slider > .col-12{
-    padding-left: 60px;
-    padding-right: 60px;
+
+  .slider{
+    height: 600px;
   }
 
-  .business-slider{
-    height: 500px;
+  .mainpage-slider{
+    background: linear-gradient(
+                    to right, #f8f8f8 0%, #f8f8f8 70%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%) left,
+    url(../../images/background-header-right.jpg) right;
   }
-  .business-slider > .col-12{
-    padding-left: 60px;
-    padding-right: 60px;
+  .category-slider {
+    background: linear-gradient(
+                    to right, #f8f8f8 0%, #f8f8f8 70%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%) left,
+    url(../../images/category.jpg) right;
   }
+  .business-slider {
+    background: linear-gradient(
+                    to right, #f8f8f8 0%, #f8f8f8 70%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%) left,
+    url(../../images/business.jpg) right;
+  }
+
   .contacts-slider {
     padding: 100px 30px;
   }
-  .map{
+  .contacts-map{
     height: 100%;
   }
   /* *** */

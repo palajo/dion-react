@@ -25,7 +25,7 @@ function ClientsPage() {
             <body>
                 <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                     <div className="sidebar">
-                        <Nav variant="pills" className="flex-lg-column ">
+                        <Nav variant="pills" className="flex-lg-column">
                             <Nav.Item>
                                 <Nav.Link eventKey="first" exact>Гарантия</Nav.Link>
                             </Nav.Item>
@@ -172,7 +172,7 @@ function ClientsPage() {
                                                         Контактный телефон:
                                                     </p>
                                                     <h5>
-                                                        +38 (063) 03 16 797
+                                                        <a href="tel:+38 (050) 330 36 10">+38 (050) 330 36 10</a>
                                                     </h5>
                                                 </div>
                                             </Row>
@@ -184,7 +184,7 @@ function ClientsPage() {
                                                         Почта:
                                                     </p>
                                                     <h5>
-                                                        service@dion.lviv.ua
+                                                        <a href="mailto:service@dion.lviv.ua">service@dion.lviv.ua</a>
                                                     </h5>
                                                 </div>
                                             </Row>

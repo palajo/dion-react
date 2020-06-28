@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
-import {Modal, Container, Row, Col} from 'react-bootstrap';
-import CallbackForm from "./CallbackForm";
+import {Modal, Container} from 'react-bootstrap';
 
 const Callback = (props: any) => {
 

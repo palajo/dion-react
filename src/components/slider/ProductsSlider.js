@@ -9,12 +9,12 @@ import { NavLink } from 'react-router-dom';
 import ArrowLeft from "../../images/arrow-left.svg";
 import ArrowRight from "../../images/arrow-right.svg";
 
-import PhotopanelImage from "../../images/products/dion-jsd-10-sunflower.png";
-import VictoriaImage from "../../images/products/victoria-jsd-08-summer.png";
-import PremiumImage from "../../images/products/dion-jsd-10-premium-black.png";
-import TurboImage from "../../images/products/dion-jsd-10-turbo.png";
+import PhotopanelImage from "../../images/products/small/dion-jsd-10-sunflower.png";
+import VictoriaImage from "../../images/products/small/victoria-jsd-08-summer.png";
+import PremiumImage from "../../images/products/small/dion-jsd-10-premium-black.png";
+import TurboImage from "../../images/products/small/dion-jsd-10-turbo.png";
 
-class MainpageSlider extends React.Component {
+class ProductsSlider extends React.Component {
 
     constructor(props) {
         super(props);
@@ -39,7 +39,7 @@ class MainpageSlider extends React.Component {
         };
         return (
             <>
-                <div className="arrows">
+                <div className="arrows" id="products">
                     <div className="arrow align-self-center slick-prev" onClick={this.previous}>
                         <img src={ArrowLeft} width="12px" height="24px" alt="arrow-left" />
                     </div>
@@ -273,4 +273,4 @@ class MainpageSlider extends React.Component {
 }
 
 
-export default MainpageSlider;
+export default ProductsSlider;

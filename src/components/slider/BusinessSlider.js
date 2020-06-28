@@ -3,9 +3,9 @@ import { Row, Col } from 'react-bootstrap';
 
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
-import Callback from "../popup/Callback";
+import Partner from "../popup/Partner";
 
-class CategorySlider extends React.Component {
+class BusinessSlider extends React.Component {
 
     constructor(props) {
         super(props);
@@ -32,20 +32,20 @@ class CategorySlider extends React.Component {
             <>
                 <Slider ref={c => (this.slider = c)} {...settings}>
                     <div>
-                        <Row className="slider category-slider margin-none">
+                        <Row className="slider business-slider margin-none">
                             <Col className="align-self-center">
                                 <Row className="max-width-1440 m-auto">
                                     <Col xs={12} md={12} lg={12} className="ml-auto align-self-center">
                                         <h1 className="max-width-450">
-                                            Dion – продукция высокого
-                                            качества.
+                                            Оптовая торговля с Dion
+                                            это просто
                                         </h1>
                                         <p className="margin-top-30 margin-bottom-40 max-width-450">
-                                            Мы создаем качественный продукт за честные деньги, пытаясь
-                                            угодить клиенту во всем! Также мы предлагаем широкий
-                                            ассортимент, чтобы вы выбрали именно нас!
+                                            Заполните анкету и мы сразу же ее рассмотрим. Работать с
+                                            нами это выгодно, ведь мы лояльны к своим партнерам.
+                                            Мы рады сотрудничеству!
                                         </p>
-                                        <Callback />
+                                        <Partner />
                                     </Col>
                                 </Row>
                             </Col>
@@ -59,4 +59,4 @@ class CategorySlider extends React.Component {
 }
 
 
-export default CategorySlider;
+export default BusinessSlider;
