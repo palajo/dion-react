@@ -165,7 +165,7 @@ function MainPage() {
                     </Col>
                 </Row>
             </Container>
-            <Container fluid className="padding-top-150 padding-bottom-150 background-gray" id="contact-us">
+            <Container fluid className="padding-top-150 padding-bottom-150 background-gray d-none" id="contact-us">
                 <Container className="max-width-900">
                     <Row className="justify-content-center">
                         <h3 className="text-center">Есть вопросы? Мы ответим!</h3>

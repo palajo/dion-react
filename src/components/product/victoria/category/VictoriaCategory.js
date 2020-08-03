@@ -18,7 +18,7 @@ export const VictoriaCategory = () => {
                                 Тип: <b>Дымоходные</b>
                             </p>
                             <p>
-                                Стоимость: <b>2199 грн.</b>
+                                Стоимость: <b>85 $</b>
                             </p>
                         </Row>
                     </Col>

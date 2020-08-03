@@ -91,7 +91,7 @@ class ProductsSlider extends React.Component {
                                                         </p>
                                                         <div className="d-flex">
                                                             <h3 className="amount">
-                                                                2 399 <slow>грн.</slow>
+                                                                95 <slow>$</slow>
                                                             </h3>
                                                         </div>
                                                     </div>
@@ -146,7 +146,7 @@ class ProductsSlider extends React.Component {
                                                         </p>
                                                         <div className="d-flex">
                                                             <h3 className="amount">
-                                                                2 399 <slow>грн.</slow>
+                                                                95 <slow>$</slow>
                                                             </h3>
                                                         </div>
                                                     </div>
@@ -200,7 +200,7 @@ class ProductsSlider extends React.Component {
                                                         </p>
                                                         <div className="d-flex">
                                                             <h3 className="amount">
-                                                                4 299 <slow>грн.</slow>
+                                                                160 <slow>$</slow>
                                                             </h3>
                                                         </div>
                                                     </div>
@@ -254,7 +254,7 @@ class ProductsSlider extends React.Component {
                                                         </p>
                                                         <div className="d-flex">
                                                             <h3 className="amount">
-                                                                2 199 <slow>грн.</slow>
+                                                                85 <slow>$</slow>
                                                             </h3>
                                                         </div>
                                                     </div>

@@ -72,7 +72,7 @@ export const PhotopanelProductInfo = ({productImage, productType, productVendor,
                                                         <div className="d-flex">
                                                             <h3 className="amount">
                                                                 {productPrice}
-                                                                <low>грн.</low>
+                                                                <low>$</low>
                                                             </h3>
                                                         </div>
                                                     </div>

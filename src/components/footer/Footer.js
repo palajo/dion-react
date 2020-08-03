@@ -8,7 +8,9 @@ function Footer() {
             <Container className="container">
                 <Row className="row">
                     <Col>
-                        <img src={Logo} height="40" alt="dion-logo" />
+                        <NavLink to="/">
+                            <img src={Logo} height="40" alt="dion-logo" />
+                        </NavLink>
                     </Col>
                     <Col className="d-none d-md-block">
                         <p className="margin-bottom-10 footer-heading ">
@@ -54,14 +56,14 @@ function Footer() {
                                 <NavLink className="nav-link" to="/contacts">Львов, ул. Моринецкая 8а</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="tel:+38 (063) 03 16 797">+38 (063) 03 16 797</a>
+                                <a className="nav-link" href="tel:+38 (050) 330 36 10">+38 (050) 330 36 10</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="tel:+38 (097) 12 52 543">+38 (097) 12 52 543</a>
+                                <a className="nav-link" href="tel:+38 (032) 243 70 64">+38 (032) 243 70 64</a>
                             </li>
                         </ul>
                     </Col>
-                    <Col className="d-none d-md-block">
+                    <Col className="d-none ">
                         <p className="margin-bottom-10 footer-heading">
                             Соц. сети:
                         </p>

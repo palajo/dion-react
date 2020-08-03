@@ -28,7 +28,7 @@ const Window = ({windowCategory, windowId, windowImage, windowVendor, windowName
                         {windowVendor}, <b>{windowName}</b>
                     </div>
                     <div className="product-price text-center">
-                        {windowPrice} грн.
+                        {windowPrice} $
                     </div>
                 </div>
             </NavLink>
